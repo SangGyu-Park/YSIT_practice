@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>YSit</title>
+</head>
+<body>
+    <div class="Wrap">
+        <div class="welcome">환영합니다!</div>
+        <h2 class="title1"><span>I Can Do</span> <span style="color: #1E00D3;">IT콘텐츠과</span></h2>
+        <div class="checkboxwrap">
+            <button class="checkbox" id="student" onclick="document.getElementById('.checkboxwrap').style.color = 'red'">학생</button>
+            <div class="line"></div>
+            <button class="checkbox" id="teacher">교사</button>
+        </div>
+        <div class="loginwrap">
+            <input type="ID" class="login" placeholder="아이디를 입력해 주세요.">
+            <input type="PW" class="login" placeholder="비밀번호를 입력해 주세요.">
+        </div>
+        <div class="loingwrap">
+            <button class="loginbtn" onClick="location.href='home.html'"> 로그인 하기</button>
+        </div>
+        <div class="signupwrap">
+            <span class="blank">신규 사용자이신가요?</span>
+            <a href="signup.html">계정 만들기</a>
+        </div>
+        <div class="find">
+            <a class="findid" href="findID.html">아이디 찾기</a>
+            <div class="findline"></div>
+            <a class="findpw" href="findPW.html">비밀번호 찾기</a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
